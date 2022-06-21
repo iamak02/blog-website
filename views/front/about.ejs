@@ -1,0 +1,29 @@
+<%- include('../partition/header.ejs')%>
+  <section class="cmspage mtb-40">
+    <div class="container">
+      <h1>About</h1>
+      <% data.forEach((item)=>{%>
+        <div class="page-desc">
+          <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem placeat consequatur nulla, quia in
+          repudiandae dolorum culpa voluptatum cum cupiditate, ratione ipsam sapiente. Rerum cumque quis ipsum
+          perspiciatis enim! Placeat a veritatis dignissimos corrupti quia quidem autem possimus cumque optio, error
+          tenetur voluptates, amet eum! Cum veritatis necessitatibus autem perferendis illo natus deserunt
+          exercitationem animi quasi, voluptates eius minima tempora, voluptatibus consequuntur pariatur nesciunt hic
+          fuga eveniet ipsam id reprehenderit. Commodi placeat eos assumenda aspernatur iusto ea nemo explicabo
+          similique debitis aliquam! Soluta explicabo numquam unde quis aliquam a, dolores, nulla, amet necessitatibus
+          repellendus iure! Eos eligendi facilis quisquam illo excepturi voluptatum quo aut, obcaecati ea sit odit
+          itaque, quidem molestiae libero nisi incidunt laboriosam, ut quaerat natus soluta quos? Rerum tempore dicta
+          obcaecati quibusdam est error maiores fugit, earum perspiciatis officiis atque itaque impedit fugiat,
+          reiciendis quis! Illum magni, ex natus consectetur rem porro eaque impedit dolores voluptatibus sequi fugiat
+          numquam placeat esse quidem sunt quia laboriosam minus tempora! Asperiores ea illum omnis excepturi corporis,
+          perspiciatis at! Officiis, consequuntur cum quae neque cupiditate voluptatem, nisi fuga totam ex quis
+          suscipit. Qui molestiae quam esse enim quaerat, necessitatibus dolores, quos commodi quis a ipsa vel, error
+          quidem deleniti minus odit.</p> -->
+          <p>
+            <%=item.content%>
+          </p>
+          <%})%>
+        </div>
+    </div>
+  </section>
+  <%- include('../partition/footer.ejs')%>
